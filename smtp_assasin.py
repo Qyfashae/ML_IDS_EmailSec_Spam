@@ -6,11 +6,11 @@ from sklearn.metrics import accuracy_score, confusion_matrix
 from sklearn import tree
 
 # Paths to the directories containing the emails
-s_ep = os.path.join("trn", "s_ep") # Change of keywords after your own files and dirs you desire
-v_ep = os.path.join("trn", "v_ep") # Change of keywords after your own files and dirs you desire
+s_ep = os.path.join("training_data_for_ml_emails", "training_data_ML00") 
+v_ep = os.path.join("training_data_for_ml_emails", "training_data_ML01") 
 
 # List of file directories and corresponding labels
-l_fd = [(s_ep, 0), (v_ep, 1)] # Change of keywords after your own files and dirs you desire
+l_fd = [(s_ep, 0), (v_ep, 1)] 
 e_cs = []
 l_bs = []
 
